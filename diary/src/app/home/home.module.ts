@@ -6,6 +6,7 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 import {SidebarComponent} from '../widgets/sidebar/sidebar.component';
+import {AddProductComponent} from '../widgets/add-product/add-product.component'
 
 
 @NgModule({
@@ -15,6 +16,6 @@ import {SidebarComponent} from '../widgets/sidebar/sidebar.component';
     IonicModule,
     HomePageRoutingModule,
   ],
-  declarations: [HomePage, SidebarComponent]
+  declarations: [HomePage, SidebarComponent, AddProductComponent]
 })
 export class HomePageModule {}

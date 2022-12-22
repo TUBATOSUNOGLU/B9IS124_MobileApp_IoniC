@@ -19,4 +19,9 @@ export class HomePage {
     ];
   constructor() {}
 
+  ngOnInit() {}
+
+  test(event:any){
+    this.data.push(event)
+  }
 }
